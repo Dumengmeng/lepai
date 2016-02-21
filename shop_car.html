@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车结算页面</title>
+	<link type="text/css" rel="stylesheet" href="style/reset.css">
+	<link type="text/css" rel="stylesheet" href="style/main.css">
+</head>
+<body>
+		
+	<header id="headerBar">
+
+		<div class="topBar">
+			<div class="comWidth">
+				<div class="leftArea">
+					<i></i>
+					<a href="#" class="collection">收藏本站</a>
+				</div>
+				<div class="rightArea">
+					<a href="#">mengmeng.du</a>
+					<p>欢迎来到乐拍网!</p>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="logoBar">
+			<div class="comWidth">
+
+				<div class="logo">
+					<a href="#"><h3>乐拍网</h3></a>
+					<a href="#"><h4>lepai.com</h4></a>
+				</div>
+
+				<div class="progress_bar rightArea">
+					<i class="line"></i>
+					<span class="wrap wrap1"><img src="images/icons/progress_bar1.png" alt=""><i>我的购物车</i></span>
+					<span class="wrap wrap2"><img src="images/icons/progress_bar2.png" alt=""><i>填写核对订单</i></span>
+					<span class="wrap wrap3"><img src="images/icons/progress_bar3.png" alt=""><i>订单提交成功</i></span>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<article>
+		<div class="content comWidth">
+			<div class="wrap_box">
+				<h3>收货信息</h3>
+				<div class="wrapper">
+					<div class="address">
+						<dl>
+							<dt><i>*</i>选择地区：</dt>
+							<dd><span><a href="#">上海市 松江区</a></span></dd>
+						</dl>
+						<dl>
+							<dt><i>*</i>详细地址：</dt>
+							<dd><input type="text" placeholder="最多输入26个汉字" style="width:390px;"></dd>
+						</dl>
+						<dl>
+							<dt><i>*</i>收 货 人：</dt>
+							<dd><input type="text" placeholder="最多输入26个汉字" style="width:110px;"></dd>
+						</dl>
+						<dl>
+							<dt><i>*</i>手&nbsp;&nbsp;&nbsp;&nbsp;机：</dt>
+							<dd>
+								<input type="text" placeholder="最多输入26个汉字" style="width:110px;">
+								或固定电话：
+								<input type="text" placeholder="区号" style="width:62px;">-
+								<input type="text" placeholder="电话号码" style="width:96px;">-
+								<input type="text" placeholder="分机号(可选)" style="width:96px;">
+							</dd>
+						</dl>
+						<button class="btn">确认收货地址</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="wrap_box">
+				<h3>收货信息</h3>
+				<div class="wrapper">
+					<div class="pay">
+						<dl>
+							<dt>
+								<input type="radio" id="weichat" name="pay">
+								<label for="weichat">微信支付</label>
+							</dt>
+							<dd><i></i>用微信扫一扫就能支付！</dd>
+						</dl>
+						<dl>
+							<dt>
+								<input type="radio" id="cash" name="pay">
+								<label for="cash">货到付款</label>
+							</dt>
+							<dd>送货上门后再付款，使用现金或刷银行卡。</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+
+			<div class="wrap_box">
+				<h3>发票信息</h3>
+				<div class="wrapper">
+					<div class="receipt">
+						<dl class="need">
+							<dt>
+								<input type="checkbox" id="receipt">
+								<label for="receipt">需要发票</label>
+							</dt>
+						</dl>
+						<div class="info">
+							<dl>
+								<dt><i>*</i>发票类型：</dt>
+								<dd><span><a href="#">商业零售发票</a></span></dd>
+							</dl>
+							<dl>
+								<dt><i>*</i>发票抬头：</dt>
+								<dd>
+									<span><a href="#">个人</a></span>
+									<input type="text" placeholder="阿斯顿">
+								</dd>
+							</dl>
+							<button class="btn yes">保存</button>
+							<button class="btn no">取消</button>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="wrap_box clearfix">
+				<div class="head">
+					<h3>送货清单</h3>
+					<p>返回购物车修改</p>
+				</div>
+				<ul class="nav">
+					<li class="name">商品名称</li>
+					<li>单价</li>
+					<li>反现</li>
+					<li>数量</li>
+					<li>小计</li>
+				</ul>
+				<div class="lists">
+					<ul class="item clearfix">
+						<li class="name">
+							<div class="img"><img src="images/product4.png" alt=""></div>
+							<p>Apple 苹果 iPad mini 16G wifi版 平板电脑 前白后银MD531CH/A (白色)</p>
+							<span>[赠品] 外壳皮套 毕加索抽象画彩绘皮套 赠品</span>
+						</li>
+						<li class="price">￥1890.00</li>
+						<li class="payback">￥0.00</li>
+						<li class="num">1</li>
+						<li class="sum">￥1980.00</li>
+					</ul>
+				</div>
+				<div class="liuyan">
+					<p>若您对包裹有特殊要求，请再次留言</p>
+					<textarea name="" id="" cols="60" rows="1"></textarea>
+				</div>
+				<div class="notbuy left">
+					<p class="warn"><i></i>抱歉，以下商品暂时不能购买，已帮您自动在本次结算中提出并扣减对应金额，您可以选购其他类似商品:)</p>
+					<div class="sub left">
+						<div class="img left"><img src="images/notbuy.png" alt=""></div>
+						<div class="info left">
+							<p>清风 清香型 欧缘系列 100抽3提</p>
+							<p>数量：<span>1</span>件</p>
+							<p>￥12.50<span class="null">(无货)</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="wrap_box">
+				<h3>订单结算</h3>
+				<div class="wrapper clearfix">
+					<div class="clear right">
+						<p>总计<span>￥1280.00</span></p>
+						<button class="btn submit right">提交订单</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+
+	<div class="hr_30"></div>
+	
+	<footer>
+		<div class="footer">
+			<p><a href="#">乐拍公告</a> <i>|</i> <a href="#">招纳贤士</a> <i>|</i> <a href="#">联系我们</a> <i>|</i> 联系电话：15637572224 </p>
+			<p>Copyright &copy; 2015 - 2016乐拍网版权所有 京ICP备XX037834号 京ICP证XX034-8373号</p>
+			<div class="pics">
+				<a href="#"><img src="images/foot.png" alt=""></a>
+				<a href="#"><img src="images/foot.png" alt=""></a>
+				<a href="#"><img src="images/foot.png" alt=""></a>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
