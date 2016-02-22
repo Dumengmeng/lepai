@@ -297,27 +297,25 @@
 .wrap_box input{height: 30px;line-height: 30px;border: 1px solid #ccc;padding-left: 8px;display: inline-block;vertical-align: middle;}
 .wrap_box .address span{height: 22px;line-height: 22px;display: inline-block;border: 1px solid #ccc;padding-left: 8px;padding-right: 6px;}
 .wrap_box .address span a{background: url(../images/icons/down_arrow.png) right center no-repeat;padding-right: 14px;}
-.wrap_box input{}
+#weichat, #cash, #receipt{border: none;}
 .wrap_box .pay i{display: inline-block;width: 26px;height: 20px;background: url(../images/icons/weichat_pay.png) no-repeat;margin-right: 6px;vertical-align: middle;}
 .wrap_box .receipt .need input{display: inline-block;vertical-align: middle;}
 .wrap_box .receipt .info{margin-left: 8px;margin-top: 8px;}
-.wrap_box .receipt .btn{width: 68px;}
+.wrap_box .receipt .btn{width: 68px;*margin-right: 4px;}
 .wrap_box .receipt .no{color: #666;background-color: #F5F5F5;border: 1px solid #CCCCCC;}
 .wrap_box .head{height: 32px;line-height: 32px;background-color: #F3F3F3;border-bottom: 1px solid #E3E3E3;}
 .wrap_box .head h3{border: none;float: left;display: inline-block;height: 32px;line-height: 32px;}
 .wrap_box .head p{font-size: 12px;color: #4582FE;padding-right: 30px;float: right;}
 .wrap_box .nav{height: 32px;line-height: 32px;border-bottom: 1px solid #E3E3E3;padding-left: 32px;}
 .wrap_box .nav .name{width: 380px;}
-.wrap_box .nav li{width: 134px;display: inline-block;text-align: left;color: #666;}
+.wrap_box .nav li{width: 134px;display: inline-block;color: #666;float: left;}
 .wrap_box .item{border-bottom: 1px solid #E3E3E3;padding: 8px 32px 12px;}
 .wrap_box .item p{color: #666;float: left;display: inline-block;width: 200px;width: 240px;line-height: 22px;margin-bottom: 20px;}
-.wrap_box .item li{float: left;display: inline-block;height: 100px;width: 136px;}
+.wrap_box .item li{float: left;display: inline-block;height: 100px;width: 134px;}
 .wrap_box .item .img{width: 90px;height: 100px;line-height: 100px;float: left;text-align: center;}
 .wrap_box .item .img img{display: inline-block;vertical-align: middle;}
-.wrap_box .item .name{width: 372px;padding-right: 12px;}
+.wrap_box .item .name{width: 368px;padding-right: 12px;}
 .wrap_box .item .name span{font-weight: bold;color: #5C5C5C;display: inline-block;margin-right: 30px;width: 240px;}
-.wrap_box .item .num{width: 116px;padding-left: 20px;}
-.wrap_box .item .sum{width: 130px;}
 .wrap_box .liuyan{margin-top: 12px;margin-left: 32px;}
 .wrap_box .liuyan p{line-height: 30px;color: #418FFA;}
 .wrap_box .liuyan textarea{border: 1px solid #ccc;padding: 4px 8px;}
@@ -327,7 +325,7 @@
 .wrap_box .notbuy .img{width: 100px;text-align: center;}
 .wrap_box .notbuy .info p{line-height: 22px;}
 .wrap_box .notbuy .info .null{color: #D70000;font-weight: bold;}
-.wrap_box .clear{padding-top: 20px;margin-bottom: 12px;}
+.wrap_box .clear{padding-top: 20px;margin-bottom: 12px;text-align: right;}
 .wrap_box .clear p{color: #666;}
 .wrap_box .clear span{font-size: 26px;color: #E50007;font-weight: bold;margin-left: 8px;}
 .wrap_box .clear .submit{background-color: #E50007;width: 160px;border: none;}
