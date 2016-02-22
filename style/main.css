@@ -197,7 +197,6 @@
 .main_details .select .address{border: 1px solid #ccc;padding: 3px 6px 3px 6px;background-color: #fff;}
 .main_details .select .address a{background: url(../images/icons/down_arrow.png) right center no-repeat;color: #7E7E7E;padding-right: 12px;}
 .main_details .select .color{padding-top: 10px;padding-bottom: 10px;}
-/*.main_details .select .color dd{height: 32px;line-height: 32px;}*/
 .main_details .select .color span{display: inline-block;background-color: #fff;border: 1px solid #ccc;margin-right: 6px;padding-left: 12px;padding-right: 12px;}
 .main_details .select .color span a{color: #292929;}
 .main_details .select .type{height: 76px;}
@@ -205,12 +204,12 @@
 .main_details .select .type dd{white-space: nowrap;}
 .main_details .select .type span{background-color: #fff;border: 1px solid #ccc;padding: 4px 12px;margin-right: 6px;word-wrap: break-word;}
 .main_details .select .count .wrap{margin-right: 6px;float: left;}
-.main_details .select .count .wrap input{width: 52px;height: 32px;background-color: #fff;text-align: center;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;float: left;}
-.main_details .select .count .wrap img{border: 1px solid #ccc;float: left;}
+.main_details .select .count .wrap input{width: 52px;height: 32px;line-height: 32px;background-color: #fff;text-align: center;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;float: left;}
+.main_details .select .count .wrap img{height: 32px;width: 20px;border: 1px solid #ccc;float: left;display: inline-block;}
 .main_details .select .count .num{color: #FE8900;}
 .main_details .goto{width: 100%;text-align: center;padding-top: 10px;padding-bottom: 16px;}
-.main_details .goto span{width: 186px;height: 50px;line-height: 50px;font-size: 20px;background-color: #FE8900;display: inline-block;margin-left: 40px;margin-right: 40px;}
-.main_details .goto span a{background: url(../images/icons/goto_car.png) left center no-repeat;color: #fff;padding-left: 30px;display: inline-block;}
+.main_details .goto span{width: 186px;height: 50px;line-height: 50px;font-size: 20px;background-color: #FE8900;display: inline-block;margin-left: 40px;margin-right: 40px;text-align: center;}
+.main_details .goto span a{background: url(../images/icons/goto_car.png) left center no-repeat;color: #fff;display: inline-block;}
 .main_details p{color: #999;line-height: 32px;margin-bottom: 14px;display: inline-block;}
 
 .relate_details .leftArea{width: 190px;margin-right: 18px;border-top: 2px solid #1D86CF;background-color: #F0F0F0;}
@@ -347,8 +346,8 @@
 .login .btn_login{width: 346px;height: 38px;line-height: 38px;background-color: #1D7AD9;border: none;color: #fff;font-size: 16px;}
 .login li p{text-align: left;}
 .login .thire_count{text-align: left;}
-.login .register{width: 114px;height: 30px;color: #fff;background-color: #7CBE56;border: none;text-align: center;float: right;}
-
+.login .register_btn{width: 114px;height: 30px;color: #fff;background-color: #7CBE56;border: none;text-align: center;float: right;margin-top: 10px;}
+#auto, #safe, #read{border: none;}
 
 /* 注册页面 */
 .account_page .register{text-align: center;margin-top: 60px;width: 500px;}
