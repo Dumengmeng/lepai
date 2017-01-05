@@ -5,3 +5,4 @@
 
 查看已暂存或未暂存的修改
 file changed on remote master
+file changed for the second time
