@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_a09808
 ﻿111111111
 222222222
 333333333
@@ -16,3 +17,6 @@ file changed on the master branch
 
 this may make a conflict
 			
+=======
+this is a testing file
+>>>>>>> .merge_file_a09872
