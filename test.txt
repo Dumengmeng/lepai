@@ -1,3 +1,15 @@
 ﻿resolve conflicts
 
 444444444444444444
+
+状态概览
+
+
+git status -s
+
+git diff  ; git status --cached
+git diff --stat  简单查看diff的结果
+git diff HEAD  --- > git diff & git diff --cached
+git difftool ---> 用第三方工具查看文件差异
+git difftool --tool--help  ---> 查看当前系统支持那些diff插件
+
