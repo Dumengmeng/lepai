@@ -27,3 +27,5 @@ git reset HEAD (文件名)  ---> 取消暂存操作
 git remote -v  --->  查看远程仓库简写
 git branch -v ---> 本地仓库分支与远程仓库分支之间的对应关系 以及每个分支上的最后一次提交
 git remote add (shortname) (url) ---> 添加一个远程仓库并重命名
+
+changed at fixbug1
