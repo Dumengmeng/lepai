@@ -13,4 +13,4 @@ git diff HEAD  --- > git diff & git diff --cached
 git difftool ---> 用第三方工具查看文件差异
 git difftool --tool--help  ---> 查看当前系统支持那些diff插件
 
-git config --global core.editor  ---> 设置git的文本编辑器
+git config --global core.editor（url）  ---> 设置git的文本编辑器
