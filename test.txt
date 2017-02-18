@@ -29,3 +29,5 @@ git branch -v ---> 本地仓库分支与远程仓库分支之间的对应关系 
 git remote add (shortname) (url) ---> 添加一个远程仓库并重命名
 
 changed at fixbug1
+changed at fixbug2
+
