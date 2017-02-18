@@ -18,3 +18,10 @@ git config --global core.editor（url）  ---> 设置git的文本编辑器
 git log --pretty=oneline
 git log --pretty=format:"%h - %an, %ar : %s"
 git log --pretty=format:"%h : %s" --graph
+git log -(n) --->  最近n次的提交
+
+git commit --amend  --->  修改提交历史
+
+git reset HEAD (文件名)  ---> 取消暂存操作
+
+will be reset
